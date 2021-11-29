@@ -5,7 +5,7 @@ const port = 3000
 app.use(express.static('front'))
 
 app.get('/', (req, res) => {
-    res.send('Chegou na tela pela terceira vez !!')
+    res.send('Chegou  !!')
 })
 
 app.listen(port, () => {
